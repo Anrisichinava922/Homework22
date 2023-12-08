@@ -239,7 +239,9 @@ footer{
     text-align: center;
     row-gap: 24px;
 }
-b{
+.b{
+    text-decoration: none;
+    cursor: pointer;
     color: #83888F;
     font-size: 12px;
     font-style: normal;
@@ -247,4 +249,10 @@ b{
     line-height: 15px;
     letter-spacing: 0.923px;
     text-transform: uppercase;
+}
+a:hover{
+    color: blue;
+}
+.b:hover{
+    color: white;
 }
