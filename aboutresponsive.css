@@ -1,0 +1,137 @@
+@media (width > 769px){
+    header{
+        column-gap: 250px;
+    }
+    .icon{
+        display: none;
+    }
+    .none-div{
+        display: flex;
+        column-gap: 33px;
+    }
+    .none{
+        text-decoration: none;
+        cursor: pointer;
+        color: #83888F;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+    }
+    .first-box{
+        align-items: start;
+        padding-left: 58px;
+        width: 689px;
+        height: 400px;
+        flex-shrink: 0;
+        background-image: url(./asset/tablet.first.box.svg);
+        background-repeat: no-repeat;
+    }
+    .first-box-text{
+        align-items: start;
+        text-align: start;
+    }
+    h1{
+        color: #FEFCF7;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 40px;
+    }
+    h2{
+        width: 398px;
+        color: #FEFCF7;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.8;
+    }
+    .second-box{
+        display: flex;
+        flex-direction: row;
+        column-gap: 69px;
+    }
+    .meore{
+        align-items: start;
+        text-align: start;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: block;
+        border-radius: 8px;
+    }
+    .third-box{
+        margin-top: 338px;
+        width: 688px;
+        height: 488px;
+        flex-shrink: 0;
+    }
+    .third-box img{
+        width: 573px;
+        height: 320px;
+        flex-shrink: 0;
+        margin-top: -170px;
+    }
+    .h3{
+        color: #FEFCF7;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+    .h4{
+        width: 540px;
+        color: #FEFCF7;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .fourth-box-text{
+        padding-right: 450px;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: 223px 223px 223px;
+        column-gap: 10px;
+    }
+    .box{
+        align-items: start;
+    }
+    .box2{
+        margin-left: 30px;
+    }
+    .txt{
+        align-items: start;
+        text-align: start;
+    }
+    h5{
+        width: 222px;
+        color: #333D4B;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    footer{
+        width: 688px;
+        height: 270px;
+        flex-shrink: 0;
+    }
+    .footer-text{
+        display: flex;
+        flex-direction: row;
+        column-gap: 33px;
+    }
+    .icon{
+        display: none;
+    }
+    .none-div{
+        display: flex;
+    }
+}
