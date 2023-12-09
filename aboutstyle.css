@@ -23,6 +23,9 @@ header{
     column-gap: 148px;
     padding: 32px 24px 40px 24px;
 }
+.desktop{
+    display: none;
+}
 .none-div{
     display: none;
 }
