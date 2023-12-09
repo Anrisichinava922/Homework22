@@ -403,3 +403,21 @@ a:hover{
     background-color:  #0E8784;
     color: #FFF;
 }
+.res{
+    width: 279px;
+    color: #FFF;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+.sp{
+    width: 279px;
+    color: #0E8784;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
