@@ -153,4 +153,31 @@
         flex-direction: row;
         column-gap: 33px;
     }
+    .res{
+        width: 602px;
+    }
+    .none-result{
+        width: 540px;
+        height: 597px;
+        flex-shrink: 0;
+    }
+    .none-result-header{
+        width: 540px;
+        height: 136px;
+        flex-shrink: 0;
+    }
+    .none-result-header img{
+        width: 336px;
+        height: 48px;
+    }
+    .main-result{
+        width: 428px;
+        height: 160px;
+    }
+    .main-result-txt{
+        width: 428px;
+    }
+    .gadamowmeba{
+        width: 428px;
+    }
 }

@@ -431,6 +431,7 @@ a:hover{
     flex-shrink: 0;
     border-radius: 8px;
     background: #FEFCF7;
+    margin-top: 120px;
 }
 .none-result-header{
     display: flex;
