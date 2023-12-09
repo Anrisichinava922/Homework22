@@ -56,7 +56,6 @@ header{
     flex-shrink: 0;
     border: 2px solid #0E8784;
     border-radius: 50%;
-    background-color: white;
 }
 .brgr-header{
     display: flex;
