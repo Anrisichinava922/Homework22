@@ -21,7 +21,20 @@ const res2 = document.querySelector('.sp2')
 const res3 = document.querySelector('.sp3')
 const res4 = document.querySelector('.sp4')
 const res5 = document.querySelector('.sp5')
+const mainRes = document.querySelector('.res')
+const form = document.querySelector('form')
+const button = document.querySelector('button')
+const mainResult = document.querySelector('.main-result-txt')
+const noneResult = document.querySelector('.none-result')
 
+form.addEventListener('submit', (e) =>{
+    e.preventDefault()
+})
+
+button.addEventListener('click', () =>{
+    mainResult.textContent = mainRes.textContent
+    noneResult.classList.toggle('active2')
+})
 
 
 icon.addEventListener('click', () =>{
