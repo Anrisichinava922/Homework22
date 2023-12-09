@@ -266,6 +266,9 @@ h6{
     align-items: center;
     row-gap: 56px;
 }
+.desktop{
+    display: none;
+}
 .text{
     display: flex;
     flex-direction: column;
@@ -289,6 +292,9 @@ h6{
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
+}
+.desktop2{
+    display: none;
 }
 .fourth-box{
     display: flex;
@@ -320,6 +326,8 @@ p{
     flex-shrink: 0;
     border-radius: 6px;
     background: #0E8784;
+}
+.buttonlink{
     color: #FEFCF7;
     font-size: 18px;
     font-style: normal;
